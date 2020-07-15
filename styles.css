@@ -105,3 +105,37 @@ footer{
 	margin: auto;
 	color:#333;
 }
+
+footer h3{
+	font-size: 3rem;
+	margin-bottom: 0;
+}
+
+.by{
+	font-size: 13px;
+}
+
+/* Screen Sizes 500px and UP */
+
+@media(min-width: 500px){
+    #landing{
+    	display: flex;
+    	height: 100%;
+    }
+
+    #landing-text{
+    	height: 100vh;
+    }
+
+    #landing-image{
+    	height: 100vh;
+    }
+}
+
+/* Screen Size 700px and UP */
+
+@media(min-width: 700px){
+	.btn{
+		padding: 1rem 3rem;
+	}
+}
